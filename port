@@ -1,0 +1,4 @@
+#!/bin/bash
+let b=$1
+let c=$b+1
+echo $c

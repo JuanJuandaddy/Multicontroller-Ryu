@@ -1,0 +1,7 @@
+#!/bin/bash
+#该脚本可让控制器监听指定端口号  ./sdn  6653  运行控制器1，监听端口6653
+python Config.py $1
+ryu-manager controller.py --observe-links --ofp-tcp-listen-port $1
+
+
+
