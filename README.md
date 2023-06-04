@@ -1,2 +1,3 @@
 # Multicontroller-Ryu
 该项目为一个基于Ryu控制器的多线程控制器项目
+在setting文件中，可以对Mininet和Controller中的各项参数进行设置并具有参数说明
